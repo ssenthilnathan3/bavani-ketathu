@@ -80,20 +80,19 @@
     }
   }
 
-  
-
-@media screen and (max-width: 1182px) {
-  .courseDetail .detail {
-    justify-content: center;
-    align-items: center;
-  }
-  .courseDetail .courseImage {
-    order: 1;
-    width: 100%;
-  }
-  .courseDetail .detail .courseDescription {
-    order: 2;
-    margin: 1.5rem 0;
-    width: 100%;
+  @media screen and (max-width: 1182px) {
+    .courseDetail .detail {
+      justify-content: center;
+      align-items: center;
+    }
+    .courseDetail .courseImage {
+      order: 1;
+      width: 100%;
+    }
+    .courseDetail .detail .courseDescription {
+      order: 2;
+      margin: 1.5rem 0;
+      width: 100%;
+    }
   }
 }
